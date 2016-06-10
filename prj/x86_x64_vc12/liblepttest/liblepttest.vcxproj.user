@@ -5,7 +5,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommand>../../../lib/dbg/x86_vc12/liblepttest[dbg_x86_vc12].exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>../../../lib/dbg/x64_vc12/liblepttest[dbg_x64_vc12].exe</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -13,7 +13,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommand>../../../lib/rel/x86_vc12/liblepttest[rel_x86_vc12].exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>../../../lib/rel/x64_vc12/liblepttest[rel_x64_vc12].exe</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

@@ -70,25 +70,25 @@
     <OutDir>.\../../../obj/dbg/x86_vc10/liblept\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IntDir>.\../../../obj/dbg/x86_vc12/liblept\</IntDir>
+    <IntDir>.\../../../obj/dbg/x64_vc12/liblept\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IntDir>.\../../../obj/dbg/x86_vc10/liblept\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>.\../../../obj/dbg/x86_vc12/liblept\</OutDir>
+    <OutDir>.\../../../obj/dbg/x64_vc12/liblept\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\../../../obj/rel/x86_vc10/liblept\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IntDir>.\../../../obj/rel/x86_vc12/liblept\</IntDir>
+    <IntDir>.\../../../obj/rel/x64_vc12/liblept\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IntDir>.\../../../obj/rel/x86_vc10/liblept\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>.\../../../obj/rel/x86_vc12/liblept\</OutDir>
+    <OutDir>.\../../../obj/rel/x64_vc12/liblept\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -121,10 +121,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderOutputFile>.\../../../obj/dbg/x86_vc12/liblept\liblept.pch</PrecompiledHeaderOutputFile>
-      <AssemblerListingLocation>.\../../../obj/dbg/x86_vc12/liblept\</AssemblerListingLocation>
-      <ObjectFileName>.\../../../obj/dbg/x86_vc12/liblept\</ObjectFileName>
-      <ProgramDataBaseFileName>.\../../../obj/dbg/x86_vc12/liblept\</ProgramDataBaseFileName>
+      <PrecompiledHeaderOutputFile>.\../../../obj/dbg/x64_vc12/liblept\liblept.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../../obj/dbg/x64_vc12/liblept\</AssemblerListingLocation>
+      <ObjectFileName>.\../../../obj/dbg/x64_vc12/liblept\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../../obj/dbg/x64_vc12/liblept\</ProgramDataBaseFileName>
       <AdditionalIncludeDirectories>../../../src/zlib/zlib-1.2.8/;../../../src/libpng/lpng1616/;../../../src/libtiff/tiff-4.0.3/libtiff/;../../../src/giflib/giflib-5.1.1/lib/;../../../src/libjpeg/jpeg-9a/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ErrorReporting>Prompt</ErrorReporting>
@@ -134,10 +134,10 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>../../../lib/dbg/x86_vc12/liblept[dbg_x86_vc12].lib</OutputFile>
+      <OutputFile>../../../lib/dbg/x64_vc12/liblept[dbg_x64_vc12].lib</OutputFile>
     </Lib>
     <Bscmake>
-      <OutputFile>.\../../../obj/dbg/x86_vc12/liblept\liblept.bsc</OutputFile>
+      <OutputFile>.\../../../obj/dbg/x64_vc12/liblept\liblept.bsc</OutputFile>
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -178,10 +178,10 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <PrecompiledHeaderOutputFile>.\../../../obj/rel/x86_vc12/liblept\liblept.pch</PrecompiledHeaderOutputFile>
-      <AssemblerListingLocation>.\../../../obj/rel/x86_vc12/liblept\</AssemblerListingLocation>
-      <ObjectFileName>.\../../../obj/rel/x86_vc12/liblept\</ObjectFileName>
-      <ProgramDataBaseFileName>.\../../../obj/rel/x86_vc12/liblept\</ProgramDataBaseFileName>
+      <PrecompiledHeaderOutputFile>.\../../../obj/rel/x64_vc12/liblept\liblept.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../../obj/rel/x64_vc12/liblept\</AssemblerListingLocation>
+      <ObjectFileName>.\../../../obj/rel/x64_vc12/liblept\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../../obj/rel/x64_vc12/liblept\</ProgramDataBaseFileName>
       <AdditionalIncludeDirectories>../../../src/zlib/zlib-1.2.8/;../../../src/libpng/lpng1616/;../../../src/libtiff/tiff-4.0.3/libtiff/;../../../src/giflib/giflib-5.1.1/lib/;../../../src/libjpeg/jpeg-9a/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -191,10 +191,10 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <OutputFile>../../../lib/rel/x86_vc12/liblept[rel_x86_vc12].lib</OutputFile>
+      <OutputFile>../../../lib/rel/x64_vc12/liblept[rel_x64_vc12].lib</OutputFile>
     </Lib>
     <Bscmake>
-      <OutputFile>.\../../../obj/rel/x86_vc12/liblept\liblept.bsc</OutputFile>
+      <OutputFile>.\../../../obj/rel/x64_vc12/liblept\liblept.bsc</OutputFile>
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>

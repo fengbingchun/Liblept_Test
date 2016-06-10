@@ -70,25 +70,25 @@
     <OutDir>.\../../../obj/dbg/x86_vc10/libtiff\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IntDir>.\../../../obj/dbg/x86_vc12/libtif</IntDir>
+    <IntDir>.\../../../obj/dbg/x64_vc12/libtif</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IntDir>.\../../../obj/dbg/x86_vc10/libtiff\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>.\../../../obj/dbg/x86_vc12/libtif</OutDir>
+    <OutDir>.\../../../obj/dbg/x64_vc12/libtif</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\../../../obj/rel/x86_vc10/libtiff\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IntDir>.\../../../obj/rel/x86_vc12/libtiff\</IntDir>
+    <IntDir>.\../../../obj/rel/x64_vc12/libtiff\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IntDir>.\../../../obj/rel/x86_vc10/libtiff\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>.\../../../obj/rel/x86_vc12/libtiff\</OutDir>
+    <OutDir>.\../../../obj/rel/x64_vc12/libtiff\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -118,20 +118,20 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderOutputFile>.\../../../obj/dbg/x86_vc12/libtiff\libtiff.pch</PrecompiledHeaderOutputFile>
-      <AssemblerListingLocation>.\../../../obj/dbg/x86_vc12/libtiff\</AssemblerListingLocation>
-      <ObjectFileName>.\../../../obj/dbg/x86_vc12/libtiff\</ObjectFileName>
-      <ProgramDataBaseFileName>.\../../../obj/dbg/x86_vc12/libtiff\</ProgramDataBaseFileName>
+      <PrecompiledHeaderOutputFile>.\../../../obj/dbg/x64_vc12/libtiff\libtiff.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../../obj/dbg/x64_vc12/libtiff\</AssemblerListingLocation>
+      <ObjectFileName>.\../../../obj/dbg/x64_vc12/libtiff\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../../obj/dbg/x64_vc12/libtiff\</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>../../../lib/dbg/x86_vc12/libtiff[dbg_x86_vc12].lib</OutputFile>
+      <OutputFile>../../../lib/dbg/x64_vc12/libtiff[dbg_x64_vc12].lib</OutputFile>
     </Lib>
     <Bscmake>
-      <OutputFile>.\../../../obj/dbg/x86_vc12/libtiff\libtiff.bsc</OutputFile>
+      <OutputFile>.\../../../obj/dbg/x64_vc12/libtiff\libtiff.bsc</OutputFile>
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -171,10 +171,10 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <PrecompiledHeaderOutputFile>.\../../../obj/rel/x86_vc12/libtiff\libtiff.pch</PrecompiledHeaderOutputFile>
-      <AssemblerListingLocation>.\../../../obj/rel/x86_vc12/libtiff\</AssemblerListingLocation>
-      <ObjectFileName>.\../../../obj/rel/x86_vc12/libtiff\</ObjectFileName>
-      <ProgramDataBaseFileName>.\../../../obj/rel/x86_vc12/libtiff\</ProgramDataBaseFileName>
+      <PrecompiledHeaderOutputFile>.\../../../obj/rel/x64_vc12/libtiff\libtiff.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../../obj/rel/x64_vc12/libtiff\</AssemblerListingLocation>
+      <ObjectFileName>.\../../../obj/rel/x64_vc12/libtiff\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../../obj/rel/x64_vc12/libtiff\</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -183,10 +183,10 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <OutputFile>../../../lib/rel/x86_vc12/libtiff[rel_x86_vc12].lib</OutputFile>
+      <OutputFile>../../../lib/rel/x64_vc12/libtiff[rel_x64_vc12].lib</OutputFile>
     </Lib>
     <Bscmake>
-      <OutputFile>.\../../../obj/rel/x86_vc12/libtiff\libtiff.bsc</OutputFile>
+      <OutputFile>.\../../../obj/rel/x64_vc12/libtiff\libtiff.bsc</OutputFile>
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
